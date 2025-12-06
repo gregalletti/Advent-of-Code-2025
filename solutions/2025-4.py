@@ -7,15 +7,10 @@ start_time = time.time()
 path = f"../inputs/2025-4.txt"
 
 # Common
-def count_neighbors():
-    pass
-
 moves = [(0,1), (0,-1), (-1,0), (1,0), (-1,1), (-1,-1), (1,1), (1,-1)]
 
 def search(p, target, coordinates):
-
     row, col = coordinates
-
     cnt = 0
     for move in moves:
         row = coordinates[0] + move[0]
@@ -27,7 +22,6 @@ def search(p, target, coordinates):
             continue
         if p[row][col] == target:
             cnt += 1
-
     return cnt
 
 # Part 1
