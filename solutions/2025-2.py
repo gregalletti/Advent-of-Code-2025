@@ -1,10 +1,9 @@
 import time
 from utils import print_blue, print_purple
-from data import YEAR, DAY
 
 # Setup
 start_time = time.time()
-path = f"../inputs/{YEAR}_{DAY}.txt"
+path = f"../inputs/2025-2.txt"
 
 # Common
 def isInvalid(num):
@@ -52,8 +51,8 @@ with open(path) as f:
     productIds =[ entry for entry in input[0].split(',') ]
         
     print_blue(part_1())
-    print(f"Completed {YEAR}-{DAY} PART 1 in {(time.time() - start_time) * 1000} ms\n")
+    print(f"Completed 2025-2 PART 1 in {(time.time() - start_time) * 1000} ms\n")
 
     start_time = time.time()
     print_purple(part_2())
-    print(f"Completed {YEAR}-{DAY} PART 2 in {(time.time() - start_time) * 1000} ms")
+    print(f"Completed 2025-2 PART 2 in {(time.time() - start_time) * 1000} ms")

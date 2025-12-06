@@ -3,7 +3,7 @@ from utils import print_blue, print_purple
 
 # Setup
 start_time = time.time()
-path = f"../inputs/20254.txt"
+path = f"../inputs/2025-4.txt"
 
 # Common
 def common_function():
