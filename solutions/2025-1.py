@@ -1,7 +1,7 @@
 import time
 from utils import print_blue, print_purple
 from data import YEAR, DAY
-LIMIT = 99
+
 # Setup
 start_time = time.time()
 path = f"../inputs/{YEAR}_{DAY}.txt"

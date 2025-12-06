@@ -3,7 +3,7 @@ from utils import print_blue, print_purple
 
 # Setup
 start_time = time.time()
-path = f"../inputs/__YEAR__-__DAY__.txt"
+path = f"../inputs/20254.txt"
 
 # Common
 def common_function():
@@ -22,8 +22,8 @@ with open(path) as f:
     input = (f.read().splitlines())
     
     print_blue(part_1())
-    print(f"Completed __YEAR__-__DAY__ PART 1 in {(time.time() - start_time) * 1000} ms\n")
+    print(f"Completed 2025-4 PART 1 in {(time.time() - start_time) * 1000} ms\n")
 
     start_time = time.time()
     print_purple(part_2())
-    print(f"Completed __YEAR__-__DAY__ PART 2 in {(time.time() - start_time) * 1000} ms\n")
+    print(f"Completed 2025-4 PART 2 in {(time.time() - start_time) * 1000} ms\n")

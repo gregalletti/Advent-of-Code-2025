@@ -1,7 +1,6 @@
 import time
 from utils import print_blue, print_purple
 from data import YEAR, DAY
-import heapq
 
 # Setup
 start_time = time.time()
